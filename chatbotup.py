@@ -84,9 +84,9 @@ you should answer them very politely, if there is any question out of the kb say
         response = chat.send_message(user_input)
 
 st.write(response.text)
-            model="gemini-2.5-flash",
-            contents=history + [types.Content(role="user", parts=[types.Part(text=user_input)])],
-            config=types.GenerateContentConfig(system_instruction=system_prompt),
+            response = chat.send_message(user_input)
+
+reply = response.text
         
         reply = response.text
 
