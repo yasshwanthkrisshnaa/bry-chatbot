@@ -81,11 +81,13 @@ you should answer them very politely, if there is any question out of the kb say
 {st.session_state.kb}"""
 
         genai.configure(api_key="AIzaSyBBFUnkV28r5Ei9TzYIE17BhnwqJ7HK-kc")
-        response = client.models.generate_content(
+        response = chat.send_message(user_input)
+
+st.write(response.text)
             model="gemini-2.5-flash",
             contents=history + [types.Content(role="user", parts=[types.Part(text=user_input)])],
             config=types.GenerateContentConfig(system_instruction=system_prompt),
-        )
+        
         reply = response.text
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
