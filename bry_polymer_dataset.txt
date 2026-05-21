@@ -1,0 +1,153 @@
+BRY POLYMER INDUSTRIES - CHATBOT DATASET
+
+Company Information:
+- name: BRY Polymer Industries
+- location: Salem, Tamil Nadu, India
+- year_established: 2021
+- business_type: Manufacturer
+- products: PET Jars, HDPE Jars, Acrylic Jars, Plastic Bottles, Shampoo & Oil Bottles, HDPE Tablet Containers, Cosmetic Cream Jars, Pharma PET Bottles, Homeopathy Bottles, Spray Bottles, Caps & Closures, Material Handling Bins
+
+Products Overview:
+- PET Jars
+- HDPE Jars
+- Acrylic Jars
+- Plastic Bottles
+- Shampoo & Oil Bottles
+- HDPE Tablet Containers
+- Cosmetic Cream Jars
+- Pharma PET Bottles
+- Homeopathy Bottles
+- Spray Bottles
+- Caps & Closures
+- Material Handling Bins
+
+Product Categories:
+
+PET JARS:
+  - 50ml PET Jar- minimum order quantity- 440 numbers
+  - 100ml PET Jar-minimum order quantity- 500 numbers
+  - 200ml PET Jar-minimum order quantity- 270 numbers
+  - 300ml PET Jar-minimum order quantity- 208 numbers
+  - 350ml PET Jar-minimum order quantity- 252 numbers
+  - 400ml Peanut Butter PET Jar-minimum order quantity- 224 numbers
+  - 500ml PET Jar-minimum order quantity- 136 numbers
+  - 1000ml PET Jar-minimum order quantity- 78 numbers
+  - 1500ml PET Jar-minimum order quantity- 60 numbers
+  - 2000ml PET Jar-minimum order quantity- 40 numbers
+  - 2500ml PET Jar-minimum order quantity- 40 numbers
+
+ACRYLIC JARS:
+  - 5g SAN Jar with Gold Cap-50
+  - 8g SAN Jar with Gold Cap
+  - 15g SAN Jar with Gold Cap
+  - 50g SAN Jar with Gold Cap
+  - Cosmetic Acrylic Cream Jars
+
+HDPE JARS:
+  - 200ml HDPE Pharmaceutical Jar-100
+  - 220ml HDPE Jar (BPI-93)
+  - 250g Churan Powder Jar
+  - 300ml Wide Mouth HDPE Jar
+  - Tablet Storage Containers
+
+BOTTLES:
+  - 100ml PET Bottle-170
+  - 200ml PET Bottle-162
+  - 300ml Juice Bottle-252
+  - Flavoured Milk Bottle-500
+  - Dropper Bottles (10ml, 15ml, 30ml)-each 100 
+  - Homeopathy Bottles-100
+  - Sanitizer Bottles-100
+  - Mist Spray Bottles-100
+
+SHAMPOO OIL BOTTLES:
+  - 100ml HDPE Hair Oil Bottle-100
+  - 200ml Shampoo Bottle
+  - Black HDPE Oil Bottle
+  - Pump Bottles
+
+COSMETIC JARS:
+  - 100g Cosmetic Cream Jar-100
+  - 50g Cream Jar with Gold Line Cap
+  - Aloe Vera Cream Jar
+  - PP Cosmetic Jars
+
+PHARMA PRODUCTS:
+  - Tablet HDPE Containers-150
+  - Capsule Containers
+  - Pharma PET Bottles
+  - Medicine Storage Jars
+
+CAPS AND ACCESSORIES:
+  - Flip Top Caps (25mm, 28mm)
+  - Mist Sprayers
+  - Trigger Pumps
+  - Sealing Machines
+
+INDUSTRIAL PRODUCTS:
+  - Material Handling Bins
+  - Agrochemical Bottles
+  - Storage Containers
+
+minimum order quantity for pet jars :
+- 50ml PET Jar- minimum order quantity- 440 numbers
+  - 100ml PET Jar-minimum order quantity- 500 numbers
+  - 200ml PET Jar-minimum order quantity- 270 numbers
+  - 300ml PET Jar-minimum order quantity- 208 numbers
+  - 350ml PET Jar-minimum order quantity- 252 numbers
+  - 400ml Peanut Butter PET Jar-minimum order quantity- 224 numbers
+  - 500ml PET Jar-minimum order quantity- 136 numbers
+  - 1000ml PET Jar-minimum order quantity- 78 numbers
+  - 1500ml PET Jar-minimum order quantity- 60 numbers
+  - 2000ml PET Jar-minimum order quantity- 40 numbers
+  - 2500ml PET Jar-minimum order quantity- 40 numbers
+
+minimum order quantity for ACRYLIC JARS:
+  - 5g SAN Jar with Gold Cap- 50 numbers
+  - 8g SAN Jar with Gold Cap-50 numbers
+  - 15g SAN Jar with Gold Cap-50 numbers
+  - 50g SAN Jar with Gold Cap-50 numbers
+  - Cosmetic Acrylic Cream Jars-50 numbers
+
+minimum order quantity for HDPE JARS:
+200ml HDPE Pharmaceutical Jar- 100 numbers
+  - 220ml HDPE Jar (BPI-93)-100 numbers
+  - 250g Churan Powder Jar-100 numbers
+  - 300ml Wide Mouth HDPE Jar-100 numbers
+  - Tablet Storage Containers-100 numbers
+
+minimum order quantity for BOTTLES:
+ - 100ml PET Bottle-170 numbers
+  - 200ml PET Bottle-162 numbers
+  - 300ml Juice Bottle-252 numbers
+  - Flavoured Milk Bottle-500 numbers
+  - Dropper Bottles (10ml, 15ml, 30ml)-each 100 numbers
+  - Homeopathy Bottles-100 numbers
+  - Sanitizer Bottles-100 numbers
+  - Mist Spray Bottles-100 numbers
+
+minimum order quantity for SHAMPOO OIL BOTTLES:
+ - 100ml HDPE Hair Oil Bottle-100 numbers
+  - 200ml Shampoo Bottle-100 numbers
+  - Black HDPE Oil Bottle-100 numbers
+  - Pump Bottles- 100 numbers
+
+minimum order quantity for COSMETIC JARS:
+- 100g Cosmetic Cream Jar-100 numbers
+  - 50g Cream Jar with Gold Line Cap-100 numbers
+  - Aloe Vera Cream Jar-100 numbers
+  - PP Cosmetic Jars-100 numbers
+
+minimum order quantity for PHARMA PRODUCTS:
+- Tablet HDPE Containers-150 numbers
+  - Capsule Containers-100 numbers
+  - Pharma PET Bottles-150 numbers
+  - Medicine Storage Jars-100 numbers
+
+if price is asked tell "get quote by contacting our company".
+
+
+
+
+
+
