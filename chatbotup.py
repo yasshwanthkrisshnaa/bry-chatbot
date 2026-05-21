@@ -49,7 +49,7 @@ st.markdown("""
   <p>Customer Support</p>
   <div class="divider"></div>
 </div>
-""", unsafe_allow_html=True)
+""", unsafe_allow_html=True)  
 
 chat_html = '<div class="chat-scroll">'
 if not st.session_state.messages:
@@ -69,26 +69,25 @@ user_input = st.chat_input("Ask about our products, pricing, availability…")
 
 if user_input:
     st.session_state.messages.append({"role": "user", "content": user_input})
-
 with st.spinner(""):
-      
-        system_prompt = f"""you are bry polymer industries customer care executive your job is to provide answers to the questions asked by the customers
+
+    system_prompt = f"""you are bry polymer industries customer care executive your job is to provide answers to the questions asked by the customers
 you should answer them very politely, if there is any question out of the kb say you did not have that info, only refer kb and provide the answer
 {st.session_state.kb}"""
 
     genai.configure(api_key="AIzaSyBBFUnkV28r5Ei9TzYIE17BhnwqJ7HK-kc")
-        
+
     model = genai.GenerativeModel(
         model_name="gemini-2.0-flash",
         system_instruction=system_prompt
     )
 
     chat = model.start_chat()
-        
+
     response = chat.send_message(user_input)
 
     reply = response.text
-        
 
 st.session_state.messages.append({"role": "assistant", "content": reply})
+
 st.rerun()
