@@ -88,7 +88,7 @@ response = chat.send_message(user_input)
 
 reply = response.text
         
-        reply = response.text
+reply = response.text
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
     st.rerun()
