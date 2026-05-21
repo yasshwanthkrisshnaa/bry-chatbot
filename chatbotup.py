@@ -1,6 +1,5 @@
 import streamlit as st
 import google.generativeai as genai
-from google.genai import types
 
 st.set_page_config(page_title="Bry Polymer | Support", page_icon="💬", layout="centered")
 
