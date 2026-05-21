@@ -71,24 +71,25 @@ if user_input:
     st.session_state.messages.append({"role": "user", "content": user_input})
 
     with st.spinner(""):
-        history = []
-        for msg in st.session_state.messages[:-1]:
-            role = "user" if msg["role"] == "user" else "model"
-            history.append(types.Content(role=role, parts=[types.Part(text=msg["content"])]))
+      
 
         system_prompt = f"""you are bry polymer industries customer care executive your job is to provide answers to the questions asked by the customers
 you should answer them very politely, if there is any question out of the kb say you did not have that info, only refer kb and provide the answer
 {st.session_state.kb}"""
 
         genai.configure(api_key="AIzaSyBBFUnkV28r5Ei9TzYIE17BhnwqJ7HK-kc")
-        response = chat.send_message(user_input)
+        
+    model = genai.GenerativeModel(
+        model_name="gemini-2.0-flash",
+        system_instruction=system_prompt
+    )
 
-st.write(response.text)
+    chat = model.start_chat()
+        
 response = chat.send_message(user_input)
 
 reply = response.text
         
-reply = response.text
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
     st.rerun()
