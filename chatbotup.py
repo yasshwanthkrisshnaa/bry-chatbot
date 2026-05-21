@@ -70,9 +70,8 @@ user_input = st.chat_input("Ask about our products, pricing, availability…")
 if user_input:
     st.session_state.messages.append({"role": "user", "content": user_input})
 
-    with st.spinner(""):
+with st.spinner(""):
       
-
         system_prompt = f"""you are bry polymer industries customer care executive your job is to provide answers to the questions asked by the customers
 you should answer them very politely, if there is any question out of the kb say you did not have that info, only refer kb and provide the answer
 {st.session_state.kb}"""
@@ -86,10 +85,10 @@ you should answer them very politely, if there is any question out of the kb say
 
     chat = model.start_chat()
         
-response = chat.send_message(user_input)
+    response = chat.send_message(user_input)
 
-reply = response.text
+    reply = response.text
         
 
-    st.session_state.messages.append({"role": "assistant", "content": reply})
-    st.rerun()
+st.session_state.messages.append({"role": "assistant", "content": reply})
+st.rerun()
