@@ -1,5 +1,5 @@
 import streamlit as st
-from google import genai
+import google.generativeai as genai
 from google.genai import types
 
 st.set_page_config(page_title="Bry Polymer | Support", page_icon="💬", layout="centered")
@@ -81,7 +81,7 @@ if user_input:
 you should answer them very politely, if there is any question out of the kb say you did not have that info, only refer kb and provide the answer
 {st.session_state.kb}"""
 
-        client = genai.Client(api_key="AIzaSyBBFUnkV28r5Ei9TzYIE17BhnwqJ7HK-kc")
+        genai.configure(api_key="AIzaSyBBFUnkV28r5Ei9TzYIE17BhnwqJ7HK-kc")
         response = client.models.generate_content(
             model="gemini-2.5-flash",
             contents=history + [types.Content(role="user", parts=[types.Part(text=user_input)])],
