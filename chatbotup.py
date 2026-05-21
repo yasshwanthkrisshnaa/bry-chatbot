@@ -76,7 +76,7 @@ with st.spinner(""):
 you should answer them very politely, if there is any question out of the kb say you did not have that info, only refer kb and provide the answer
 {st.session_state.kb}"""
 
-        genai.configure(api_key="AIzaSyBBFUnkV28r5Ei9TzYIE17BhnwqJ7HK-kc")
+    genai.configure(api_key="AIzaSyBBFUnkV28r5Ei9TzYIE17BhnwqJ7HK-kc")
         
     model = genai.GenerativeModel(
         model_name="gemini-2.0-flash",
