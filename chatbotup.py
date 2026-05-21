@@ -84,7 +84,7 @@ you should answer them very politely, if there is any question out of the kb say
         response = chat.send_message(user_input)
 
 st.write(response.text)
-            response = chat.send_message(user_input)
+response = chat.send_message(user_input)
 
 reply = response.text
         
